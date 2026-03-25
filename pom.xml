@@ -83,7 +83,7 @@
     </dependency><dependency>
       <groupId>com.github.almasb</groupId>
       <artifactId>fxgl</artifactId>
-      <version>17.3</version>
+      <version>25</version>
       <exclusions>
         <exclusion>
           <groupId>org.openjfx</groupId>
@@ -115,8 +115,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <source>24</source>
-          <target>24</target>
+          <source>25</source>
+          <target>25</target>
         </configuration>
       </plugin>
       <plugin>
