@@ -12,5 +12,8 @@ module org.group.game {
     requires com.almasb.fxgl.all;
 
     opens org.group1.game to javafx.fxml;
+
+    exports org.group1.game.controllers;
     exports org.group1.game;
+    exports org.group1.game.TestPackage;
 }
