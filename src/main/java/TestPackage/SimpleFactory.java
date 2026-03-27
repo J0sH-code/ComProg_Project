@@ -35,10 +35,9 @@ public class SimpleFactory implements EntityFactory {
             ImageView plane = new ImageView(img);
 
         return FXGL.entityBuilder(data)
-                .view(plane)
-                // important when making an entity move
                 // Declare new Point2D(x,y) class with its corresponding speed (pixel per second)
                 .with(new ProjectileComponent(new Point2D(1,0), 150))
+                .with(new AnimationComponent())
                 .build();
     }
 }
